@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+table {
+    font-size: 1.5em;
+}
+
+div {
+    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
+    size:unset;
+}
+
+a {
+    color:rgb(23, 22, 22);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(177, 80, 186);
+    text-decoration: none;
+}
