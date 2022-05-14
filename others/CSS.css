@@ -8,7 +8,7 @@ table {
 
 div {
     background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
-    size:unset;
+    height: 31vh;
 }
 
 a {
