@@ -1,14 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
 body {
     background-color: rgb(195, 195, 195);
 }
 
-table {
-    font-size: 1.5em;
+button {
+    float: right;
+    width: 10%;
+    height: 70px;   
+    background: rgb(148, 116, 116);
+    border: 1px solid black;
+    border-bottom: 0cm;
+    border-top: 0cm;
+    font-size: 0.5em;
 }
 
-div {
+button:hover {
+    background: rgb(125, 92, 92);
+}
+
+#div1 {
+    width: 100%;
+    height: 70px;
+    background: rgb(148, 116, 116);
+    text-align: left;
+    line-height: 70px;
+    font-size: 2.5em;
+    float: left;         
+}
+
+#div2 {
+    width: 80%;
+    height: 70px;
+    background: rgb(148, 116, 116);
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.5em;
+    float: right;
+}
+
+#divx {
+    width: 100%;
     background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
     height: 31vh;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+
+
+table {
+    font-size: 1.5em;
 }
 
 a {
