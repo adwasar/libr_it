@@ -36,13 +36,8 @@ button:hover {
 }
 
 #div2 {
-    width: 80%;
-    height: 70px;
-    background: rgb(148, 116, 116);
-    text-align: center;
-    line-height: 70px;
-    font-size: 1.5em;
-    float: right;
+    font-size: 1.2em;
+    margin: 10px;
 }
 
 #divx {
