@@ -22,6 +22,7 @@ button {
 
 button:hover {
     background: rgb(125, 92, 92);
+    cursor: pointer;
 }
 
 #div1 {
