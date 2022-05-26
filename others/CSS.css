@@ -2,9 +2,21 @@
     margin: 0;
     padding: 0;
 }
- 
+
 body {
     background-color: rgb(195, 195, 195);
+}
+ 
+.main {
+    padding-top: 70px;
+}
+
+.picture {
+    width: 100%;
+    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
+    height: 31vh;
+    background-repeat: repeat-x;
+    float: left;
 }
 
 button {
@@ -31,24 +43,14 @@ button:hover {
     background: rgb(148, 116, 116);
     text-align: left;
     line-height: 70px;
-    font-size: 2.5em;
-    float: left;         
+    font-size: 2.5em;        
+    position: fixed;
 }
 
 #div2 {
     font-size: 1.2em;
     margin: 10px;
 }
-
-#divx {
-    width: 100%;
-    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
-    height: 31vh;
-    background-repeat: repeat-x;
-    float: left;
-}
-
-
 
 table {
     font-size: 1.5em;
