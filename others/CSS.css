@@ -11,6 +11,30 @@ body {
     padding-top: 70px;
 }
 
+.body {
+    width: 85%;
+    float: right;
+}
+
+.leftMenu {
+    width: 15%;
+    height: 100vh;
+    float: left;
+    font-size: 1.8em;
+    text-align: left;   
+    position: fixed;
+    border: 1px solid rgb(173, 173, 173);
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    border-top: 0px solid black;
+}
+
+.a{
+    padding: 5px; 
+    text-align: left;
+    display: list-item;
+}
+
 .picture {
     width: 100%;
     background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
