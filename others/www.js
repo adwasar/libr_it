@@ -1,5 +1,5 @@
-console.log("hallo");
+const listItems = document.querySelectorAll("td a");
 
-function clickevent() {
-    alert ("кнопка работает");
-}
+listItems.forEach((item, i) => {
+    item.innerHTML = `${i + 1}. ${item.innerHTML}`;
+});
