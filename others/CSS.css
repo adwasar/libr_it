@@ -3,100 +3,100 @@
     padding: 0;
 }
 
-body {
-    background-color: rgb(219, 219, 219);
-}
-
 .head {
+    position: fixed;
     width: 100%;
     height: 70px;
     background: #24292f;
     text-align: left;
     line-height: 70px;
     font-size: 2.5em;        
-    position: fixed;
 }
 
-.head a {
-    padding: 10px;
-    color: rgb(255, 255, 255);
-}
+    button {
+        float: right;
+        width: 10%;
+        height: 70px;   
+        background: #24292f;
+        border: 0px solid black;
+        border-bottom: 0cm;
+        border-top: 0cm;
+        border-right: 0cm;
+        font-size: 0.5em;
+        color:rgb(255, 255, 255);
+    }
 
-.head a:hover {
-    color: rgb(255, 255, 255);
-}
+    button:hover {
+        color: #808080;
+        cursor: pointer;
+    }
+
+    .head a {
+        padding: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .head a:hover {
+        color: rgb(255, 255, 255);
+    }
  
 .main {
     padding-top: 70px;
 }
 
-.body {
-    width: 85%;
-    float: right;
-}
+    body {
+        background-color: rgb(219, 219, 219);
+    }
 
-.leftMenu {
-    width: 15%;
-    height: 100vh;
-    float: left;
-    font-size: 1.8em;
-    text-align: left;   
-    position: fixed;
-    background: rgb(196, 196, 196);
-    border: 1px solid rgb(173, 173, 173);
-    border-bottom: 0px solid black;
-    border-left: 0px solid black;
-    border-top: 0px solid black;
-}
+    .body {
+        float: right;
+        width: 85%;
+    }
 
-.a{
-    padding: 5px; 
-    text-align: left;
-    display: list-item;
-}
+    .leftMenu {
+        float: left;
+        position: fixed;
+        width: 15%;
+        height: 100vh;
+        font-size: 1.8em;
+        text-align: left;   
+        background: rgb(196, 196, 196);
+        border: 1px solid rgb(173, 173, 173);
+        border-bottom: 0px solid black;
+        border-left: 0px solid black;
+        border-top: 0px solid black;
+    }
 
-.picture {
-    width: 100%;
-    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
-    height: 31vh;
-    background-repeat: repeat-x;
-    float: left;
-}
+    .a{
+        padding: 5px; 
+        text-align: left;
+        display: list-item;
+    }
 
-button {
-    float: right;
-    width: 10%;
-    height: 70px;   
-    background: #24292f;
-    border: 0px solid black;
-    border-bottom: 0cm;
-    border-top: 0cm;
-    border-right: 0cm;
-    font-size: 0.5em;
-    color:rgb(255, 255, 255);
-}
+    .picture {
+        float: left;
+        width: 100%;
+        background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
+        height: 31vh;
+        background-repeat: repeat-x;
+    }
 
-button:hover {
-    color: #808080;
-    cursor: pointer;
-}
+    #div2 {
+        font-size: 1.2em;
+        margin: 10px;
+    }
 
-#div2 {
-    font-size: 1.2em;
-    margin: 10px;
-}
+    table {
+        font-size: 1.5em;
+    }
 
-table {
-    font-size: 1.5em;
-}
+    a {
+        color:rgb(23, 22, 22);
+        text-decoration: none;
+    }
 
-a {
-    color:rgb(23, 22, 22);
-    text-decoration: none;
-}
-
-a:hover {
-    color:rgb(76, 52, 155);
-    text-decoration: none;
-}
+    a:hover {
+        color:rgb(76, 52, 155);
+        text-decoration: none;
+    }
 
