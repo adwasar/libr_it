@@ -87,8 +87,13 @@
     }
 
     table {
+        float: left;
         margin: 10px;
         font-size: 1.4em;
+    }
+
+    img {
+        float: left;
     }
 
     a {
