@@ -92,6 +92,13 @@
         font-size: 1.4em;
     }
 
+    ul {
+        float: left;
+        margin: 10px;
+        font-size: 1.4em;
+        list-style-type: none;
+    }
+
     img {
         float: left;
     }
