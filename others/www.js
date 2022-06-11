@@ -5,3 +5,10 @@ listItems.forEach((item, i) => {
     item.innerHTML = `${i + 1}. ${item.innerHTML}`;
 });
 
+// Шаблоны для списков
+const orderList = document.querySelectorAll("li");
+
+orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
+orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
+
+
