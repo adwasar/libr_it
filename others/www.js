@@ -10,5 +10,9 @@ const orderList = document.querySelectorAll("li");
 
 orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
 orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
+orderList[2].innerHTML = `${'<b>Год издания: </b>'} ${orderList[2].innerHTML}`;
+
+
+const unOrderList = document.querySelector("ul");
 
 

@@ -89,18 +89,24 @@
     table {
         float: left;
         margin: 10px;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     ul {
         float: left;
         margin: 10px;
-        font-size: 1.4em;
+        font-size: 1.3em;
         list-style-type: none;
+        width: 68%;
     }
 
     img {
         float: left;
+    }
+
+    .imgTitle {
+        width: 30%;
+        height: 80vh;
     }
 
     a {
@@ -113,7 +119,4 @@
         text-decoration: none;
     }
 
-    .imgTitle {
-        width: 30%;
-        height: 80vh;
-    }
+    
