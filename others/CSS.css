@@ -93,6 +93,10 @@
         line-height: 1.4em;
     }
 
+    p {
+        margin-block-start: 0.5em;
+    }
+
     table {
         float: left;
         margin: 10px;
