@@ -17,6 +17,7 @@
     button {
         float: right;
         width: 10%;
+        min-width: 100px;
         height: 70px;   
         background: #24292f;
         border: 0px solid black;
@@ -50,15 +51,17 @@
     }
 
     .body {
-        float: right;
-        width: 85%;
+        float: left;
+        margin-left: 200px;
+        min-width: 360px;
     }
 
     .leftMenu {
         float: left;
-        position: fixed;
-        width: 15%;
+        left: 0;
+        width: 200px;
         height: 100vh;
+        position: fixed;
         font-size: 1.8em;
         text-align: left;   
         background: rgb(196, 196, 196);
@@ -104,7 +107,6 @@
     }
 
     ul {
-        float: top;
         margin: 10px;
         font-size: 1.3em;
         list-style-type: none;
