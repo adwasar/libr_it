@@ -57,11 +57,20 @@ listItems.forEach((item, i) => {
 // Шаблоны для списков
 const orderList = document.querySelectorAll("li");
 
-orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
-orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
-orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
-
-
 const unOrderList = document.querySelector("ul");
 
+function checkUnOrderList () {
+    if (unOrderList) {
+        orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
+        orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
+        orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
+    }
+}
+checkUnOrderList ();
 
+// бургер 
+const burger = document.querySelector('.burger');
+
+burger.addEventListener('click', () => {
+    leftMenu.classList.toggle('active');
+})
