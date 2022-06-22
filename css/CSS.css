@@ -73,30 +73,24 @@
     }
 
     .burger {
-        right: 10px;
-        top: 80px;
+        right: 0px;
+        top: 0px;
         position: fixed;
-        background-color: #24292f;
-        color:#808080;
+        color: #fff;
         cursor: pointer;
-        display: none;
-        width: 50px;
-        height: 70px;
-        font-size: 0.8em;
+        width: 60px;
+        height: 60px;
+        font-size: 1em;
         text-align: center;
         vertical-align: middle;
         display: none;
-        
-    }
-
-    @media (max-width: 660px) {
-        .leftMenu {display:none;}
-        .body {margin-left: 0px;}
-        .burger {display: block;}
     }
 
     @media (max-width: 500px) {
+        .leftMenu {display:none;}
+        .body {margin-left: 0px;}
         button {display:none;}
+        .burger {display: block;}
     }
     
     .active {

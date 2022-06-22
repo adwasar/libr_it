@@ -11,7 +11,7 @@ const head = document.querySelector('.head');
             </button>
             <button onclick="window.location.href = 'index.html'">Главная
             </button>
-            <span class="burger">☰</span>
+            <span class="burger"><b>☰</b></span>
         `;
     } else if (head.classList.contains('headDeep2')) {
         head.innerHTML =
@@ -23,7 +23,7 @@ const head = document.querySelector('.head');
             </button>
             <button onclick="window.location.href = '../index.html'">Главная
             </button>
-            <span class="burger">☰</span>
+            <span class="burger"><b>☰</b></span>
         `;
     } else if (head.classList.contains('headDeep3')) {
         head.innerHTML =
@@ -35,7 +35,7 @@ const head = document.querySelector('.head');
             </button>
             <button onclick="window.location.href = '../../../index.html'">Главная
             </button>
-            <span class="burger">☰</span>   
+            <span class="burger"><b>☰</b></span>   
         `;
     }
 
