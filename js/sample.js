@@ -1,51 +1,92 @@
+// head
+const head = document.querySelector('.head');
+
+    if (head.classList.contains('headDeep1')) {
+        head.innerHTML =
+        `
+            <a href = 'index.html'>IT Books</a>
+            <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
+            </button>
+            <button onclick="window.location.href = 'others/libraries.html';">Онлайн библиотеки
+            </button>
+            <button onclick="window.location.href = 'index.html'">Главная
+            </button>
+            <span class="burger">☰</span>
+        `;
+    } else if (head.classList.contains('headDeep2')) {
+        head.innerHTML =
+        `
+            <a href = '../index.html'>IT Books</a>
+            <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
+            </button>
+            <button onclick="window.location.href = 'libraries.html';">Онлайн библиотеки
+            </button>
+            <button onclick="window.location.href = '../index.html'">Главная
+            </button>
+            <span class="burger">☰</span>
+        `;
+    } else if (head.classList.contains('headDeep3')) {
+        head.innerHTML =
+        `
+            <a href = '../../../index.html'>IT Books</a>
+            <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
+            </button>
+            <button onclick="window.location.href = '../../libraries.html';">Онлайн библиотеки
+            </button>
+            <button onclick="window.location.href = '../../../index.html'">Главная
+            </button>
+            <span class="burger">☰</span>   
+        `;
+    }
+
 // leftMenuCountent
-const leftMenu = document.querySelector('.leftMenu');
-const leftMenuCountentDeep1 = document.createElement('div');
+const leftMenu = document.querySelector('.leftMenu'),
+      leftMenuCountentDeep1 = document.createElement('div');
 
 const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
       java = `Java.html" class="a">Java</a>`,
       piton = `Piton.html" class="a">Piton</a>`,
       php = `PHP.html" class="a">PHP</a>`,
-      cCPlusPlus = `C_C++.html" class="a">C/C++</a>`,
+      cPlusPlus = `C_C++.html" class="a">C/C++</a>`,
       cSharp = `C(sharp).html" class="a">C#</a>`;
 
-if (leftMenu.classList.contains('leftMenuDeep1')) {
-    leftMenuCountentDeep1.innerHTML = `
-    <h3>Специфика</h3>
-        <a href="others/${javaScript}
-        <a href="others/${java}
-        <a href="others/${piton}
-        <a href="others/${php}
-        <a href="others/${cCPlusPlus}
-        <a href="others/${cSharp}
-    `;
+    if (leftMenu.classList.contains('leftMenuDeep1')) {
+        leftMenuCountentDeep1.innerHTML = `
+        <h3>Специфика</h3>
+            <a href="others/${javaScript}
+            <a href="others/${java}
+            <a href="others/${piton}
+            <a href="others/${php}
+            <a href="others/${cPlusPlus}
+            <a href="others/${cSharp}
+        `;
 
-    leftMenu.append(leftMenuCountentDeep1);
-} else if (leftMenu.classList.contains('leftMenuDeep2')) {
-    leftMenuCountentDeep1.innerHTML = `
-    <h3>Специфика</h3>
-        <a href="${javaScript}
-        <a href="${java}
-        <a href="${piton}
-        <a href="${php}
-        <a href="${cCPlusPlus}
-        <a href="${cSharp}
-    `;
-    
-    leftMenu.append(leftMenuCountentDeep1);
-} else if (leftMenu.classList.contains('leftMenuDeep3')) {
-    leftMenuCountentDeep1.innerHTML = `
-    <h3>Специфика</h3>
-        <a href="../../${javaScript}
-        <a href="../../${java}
-        <a href="../../${piton}
-        <a href="../../${php}
-        <a href="../../${cCPlusPlus}
-        <a href="../../${cSharp}
-    `;
+        leftMenu.append(leftMenuCountentDeep1);
+    } else if (leftMenu.classList.contains('leftMenuDeep2')) {
+        leftMenuCountentDeep1.innerHTML = `
+        <h3>Специфика</h3>
+            <a href="${javaScript}
+            <a href="${java}
+            <a href="${piton}
+            <a href="${php}
+            <a href="${cPlusPlus}
+            <a href="${cSharp}
+        `;
+        
+        leftMenu.append(leftMenuCountentDeep1);
+    } else if (leftMenu.classList.contains('leftMenuDeep3')) {
+        leftMenuCountentDeep1.innerHTML = `
+        <h3>Специфика</h3>
+            <a href="../../${javaScript}
+            <a href="../../${java}
+            <a href="../../${piton}
+            <a href="../../${php}
+            <a href="../../${cPlusPlus}
+            <a href="../../${cSharp}
+        `;
 
-    leftMenu.append(leftMenuCountentDeep1);
-}
+        leftMenu.append(leftMenuCountentDeep1);
+    }
 
 // Присвоение ноера, для каждого елемента таблицы
 const listItems = document.querySelectorAll("td a");
@@ -73,4 +114,7 @@ const burger = document.querySelector('.burger');
 
 burger.addEventListener('click', () => {
     leftMenu.classList.toggle('active');
-})
+});
+
+
+
