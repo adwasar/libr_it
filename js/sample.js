@@ -9,7 +9,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
       cCPlusPlus = `C_C++.html" class="a">C/C++</a>`,
       cSharp = `C(sharp).html" class="a">C#</a>`;
 
-if (leftMenu.classList.contains('deep1')) {
+if (leftMenu.classList.contains('leftMenuDeep1')) {
     leftMenuCountentDeep1.innerHTML = `
     <h3>Специфика</h3>
         <a href="others/${javaScript}
@@ -21,7 +21,7 @@ if (leftMenu.classList.contains('deep1')) {
     `;
 
     leftMenu.append(leftMenuCountentDeep1);
-} else if (leftMenu.classList.contains('deep2')) {
+} else if (leftMenu.classList.contains('leftMenuDeep2')) {
     leftMenuCountentDeep1.innerHTML = `
     <h3>Специфика</h3>
         <a href="${javaScript}
@@ -33,7 +33,7 @@ if (leftMenu.classList.contains('deep1')) {
     `;
     
     leftMenu.append(leftMenuCountentDeep1);
-} else if (leftMenu.classList.contains('deep3')) {
+} else if (leftMenu.classList.contains('leftMenuDeep3')) {
     leftMenuCountentDeep1.innerHTML = `
     <h3>Специфика</h3>
         <a href="../../${javaScript}
