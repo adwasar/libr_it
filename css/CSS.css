@@ -1,9 +1,17 @@
+/* 
+1. Header
+2. Main
+3. Helpers 
+*/
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+ 
 
+/* 1. Header */
 .head {
     position: fixed;
     width: 100%;
@@ -14,150 +22,150 @@
     font-size: 2.5em;    
 }
 
-    button {
-        float: right;
-        overflow: hidden;
-        width: 10%;
-        min-width: 100px;
-        height: 70px;   
-        background: #24292f;
-        border: 0px solid black;
-        border-bottom: 0cm;
-        border-top: 0cm;
-        border-right: 0cm;
-        font-size: 0.5em;
-        color:rgb(255, 255, 255);
-    }
+button {
+    float: right;
+    overflow: hidden;
+    width: 10%;
+    min-width: 100px;
+    height: 70px;   
+    background: #24292f;
+    border: 0 solid black;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    font-size: 0.5em;
+    color: rgb(255, 255, 255);
+}
 
-    button:hover {
-        color: #808080;
-        cursor: pointer;
-    }
+button:hover {
+    color: #808080;
+    cursor: pointer;
+}
 
-    .head a {
-        padding: 10px;
-        color: rgb(255, 255, 255);
-    }
+.head a {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
 
-    .head a:hover {
-        color: rgb(255, 255, 255);
-    }
+.head a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.burger {
+    right: 0;
+    top: 0;
+    position: fixed;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .leftMenu {display:none;}
+    .body {margin-left: 0px;}
+    button {display:none;}
+    .burger {display: block;}
+}
  
+
+/* 2. Main */
 .main {
     padding-top: 70px;
 }
    
-    body {
-        background-color: rgb(219, 219, 219);
-    }
+body {
+    background-color: rgb(219, 219, 219);
+}
 
-    .body {
-        float: left;
-        margin-left: 200px;
-        min-width: 360px;
-    }
+.body {
+    float: left;
+    margin-left: 200px;
+    min-width: 360px;
+}
 
-    .leftMenu {
-        float: left;
-        left: 0;
-        width: 200px;
-        height: 100vh;
-        position: fixed;
-        font-size: 1.8em;
-        text-align: left;   
-        background: rgb(196, 196, 196);
-        border: 1px solid rgb(173, 173, 173);
-        border-bottom: 0px solid black;
-        border-left: 0px solid black;
-        border-top: 0px solid black;
-    }
+.leftMenu {
+    float: left;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    font-size: 1.8em;
+    text-align: left;   
+    background: rgb(196, 196, 196);
+    border: 1px solid rgb(173, 173, 173);
+    border-bottom: 0 solid black;
+    border-left: 0 solid black;
+    border-top: 0 solid black;
+}
 
-    .burger {
-        right: 0px;
-        top: 0px;
-        position: fixed;
-        color: #fff;
-        cursor: pointer;
-        width: 60px;
-        height: 60px;
-        font-size: 1em;
-        text-align: center;
-        vertical-align: middle;
-        display: none;
-    }
+.active {
+    display: block;
+}
 
-    @media (max-width: 500px) {
-        .leftMenu {display:none;}
-        .body {margin-left: 0px;}
-        button {display:none;}
-        .burger {display: block;}
-    }
-    
-    .active {
-        display: block;
-    }
+.a{
+    padding: 5px; 
+    text-align: left;
+    display: list-item;
+}
 
-    .a{
-        padding: 5px; 
-        text-align: left;
-        display: list-item;
-    }
+.picture {
+    float: left;
+    width: 100%;
+    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
+    height: 31vh;
+    background-repeat: repeat-x;
+}
 
-    .picture {
-        float: left;
-        width: 100%;
-        background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
-        height: 31vh;
-        background-repeat: repeat-x;
-    }
+#div2 {
+    float: left;
+    font-size: 1.2em;
+    margin: 10px;
+}
 
-    #div2 {
-        float: left;
-        font-size: 1.2em;
-        margin: 10px;
-    }
+.annotation {
+    margin: 10px;
+    line-height: 1.4em;
+}
 
-    .annotation {
-        margin: 10px;
-        line-height: 1.4em;
-    }
+p {
+    margin-block-start: 0.5em;
+}
 
-    p {
-        margin-block-start: 0.5em;
-    }
+table {
+    float: left;
+    margin: 10px;
+    font-size: 1.3em;
+}
 
-    table {
-        float: left;
-        margin: 10px;
-        font-size: 1.3em;
-    }
+ul {
+    margin: 10px;
+    font-size: 1.3em;
+    list-style-type: none;
+    width: 68%;
+}
 
-    ul {
-        margin: 10px;
-        font-size: 1.3em;
-        list-style-type: none;
-        width: 68%;
-    }
+img {
+    float: left;
+}
 
-    img {
-        float: left;
-    }
+.imgTitle {
+    padding-right: 10px;
+    float: left;
+    width: 350px;
+    height: 550px;
+}
 
-    .imgTitle {
-        padding-right: 10px;
-        float: left;
-        width: 350px;
-        height: 550px;
-    }
+a {
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+}
 
-    a {
-        color:rgb(23, 22, 22);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color:rgb(76, 52, 155);
-        text-decoration: none;
-    }
-
-    
+a:hover {
+    color: rgb(76, 52, 155);
+    text-decoration: none;
+}
