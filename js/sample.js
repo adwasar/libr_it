@@ -4,7 +4,7 @@ const head = document.querySelector('.head');
     if (head.classList.contains('headDeep1')) {
         head.innerHTML =
         `
-            <a href = 'index.html'>IT Books</a>
+            <a href = 'index.html'>Libr_IT</a>
             <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
             </button>
             <button onclick="window.location.href = 'others/libraries.html';">Онлайн библиотеки
@@ -16,7 +16,7 @@ const head = document.querySelector('.head');
     } else if (head.classList.contains('headDeep2')) {
         head.innerHTML =
         `
-            <a href = '../index.html'>IT Books</a>
+            <a href = '../index.html'>Libr_IT</a>
             <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
             </button>
             <button onclick="window.location.href = 'libraries.html';">Онлайн библиотеки
@@ -28,7 +28,7 @@ const head = document.querySelector('.head');
     } else if (head.classList.contains('headDeep3')) {
         head.innerHTML =
         `
-            <a href = '../../../index.html'>IT Books</a>
+            <a href = '../../../index.html'>Libr_IT</a>
             <button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам      
             </button>
             <button onclick="window.location.href = '../../libraries.html';">Онлайн библиотеки
