@@ -1,7 +1,8 @@
 /* 
 1. Header
-2. Main
-3. Helpers 
+2. Sidebar
+3. Main
+4. Helpers 
 */
 
 * {
@@ -30,9 +31,6 @@ button {
     height: 70px;   
     background: #24292f;
     border: 0 solid black;
-    border-bottom: 0;
-    border-top: 0;
-    border-right: 0;
     font-size: 0.5em;
     color: rgb(255, 255, 255);
 }
@@ -61,33 +59,18 @@ button:hover {
     height: 60px;
     font-size: 1em;
     text-align: center;
-    vertical-align: middle;
     display: none;
 }
 
 @media (max-width: 500px) {
     .leftMenu {display:none;}
     .body {margin-left: 0px;}
-    button {display:none;}
     .burger {display: block;}
-}
- 
-
-/* 2. Main */
-.main {
-    padding-top: 70px;
-}
-   
-body {
-    background-color: rgb(219, 219, 219);
+    button {display:none;}
 }
 
-.body {
-    float: left;
-    margin-left: 200px;
-    min-width: 360px;
-}
 
+/* 2. Sidebar */
 .leftMenu {
     float: left;
     left: 0;
@@ -103,14 +86,35 @@ body {
     border-top: 0 solid black;
 }
 
+
+/* 3. Main */
+.main {
+    padding-top: 70px;
+}
+   
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+.body {
+    float: left;
+    margin-left: 200px;
+    min-width: 360px;
+}
+
 .active {
     display: block;
 }
 
-.a{
-    padding: 5px; 
-    text-align: left;
-    display: list-item;
+img {
+    float: left;
+}
+
+.imgTitle {
+    padding-right: 10px;
+    float: left;
+    width: 350px;
+    height: 550px;
 }
 
 .picture {
@@ -121,7 +125,7 @@ body {
     background-repeat: repeat-x;
 }
 
-#div2 {
+#mainText {
     float: left;
     font-size: 1.2em;
     margin: 10px;
@@ -149,20 +153,15 @@ ul {
     width: 68%;
 }
 
-img {
-    float: left;
-}
-
-.imgTitle {
-    padding-right: 10px;
-    float: left;
-    width: 350px;
-    height: 550px;
-}
-
 a {
     color: rgb(23, 22, 22);
     text-decoration: none;
+}
+
+.a {
+    padding: 5px; 
+    text-align: left;
+    display: list-item;
 }
 
 a:hover {
