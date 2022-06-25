@@ -90,14 +90,16 @@ listItems.forEach((item, i) => {
 // Шаблоны для списков
 const orderList = document.querySelectorAll("li");
 
-const unOrderList = document.querySelector("ul");
+const unOrderList = document.querySelector("ul"),
+      compilationWebDesigneList = document.querySelector(".compilationWebDesigne__list");
 
 function checkUnOrderList () {
-    if (unOrderList) {
+    if (unOrderList && !compilationWebDesigneList) {
         orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
         orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
         orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
-    }
+    }   
+    
 }
 checkUnOrderList ();
 
@@ -106,7 +108,6 @@ const burger = document.querySelector('.burger');
 
 burger.addEventListener('click', () => {
     leftMenu.classList.toggle('active');
-    console.log('1');
 });
 
 

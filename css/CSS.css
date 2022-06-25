@@ -144,6 +144,30 @@ ul {
     list-style-type: none;
 }
 
+.compilatioms {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(141, 136, 149);
+    
+}
+
+.compilatioms ul li {
+    display: inline-block;
+    width: 190px;
+    padding: 10px;  
+}
+
+.compilatioms img {
+    float: left;
+    width: 80%;
+    height: 200px;
+}
+
+.compilatioms p {
+    float: left;
+}
+
 
 /* 4. Helpers  */
 a {
