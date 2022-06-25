@@ -64,7 +64,6 @@ button:hover {
 
 
 
-
 /* 2. Sidebar */
 .leftMenu {
     float: left;
@@ -111,9 +110,10 @@ img {
 .picture {
     float: left;
     width: 100%;
-    background-image: url("https://burrow.hogwartsishere.com/media/profile_covers/mylibrary.jpg");
-    height: 31vh;
-    background-repeat: repeat-x;
+    background: url(../imgs/qwerty2.jpg);
+    height: 40vh;
+    background-size: cover;
+
 }
 
 #mainText {
@@ -144,18 +144,32 @@ ul {
     list-style-type: none;
 }
 
+.headerСompilatioms{
+    float: left;
+    padding: 10px;
+    /* width: 100%; */
+    height: 50px;
+    line-height: 50px;
+}
+
 .compilatioms {
     float: left;
     width: 100%;
-    padding: 10px;
-    background-color: rgb(141, 136, 149);
-    
+}
+
+.compilationWebDesigne__list{
+    background-color: rgb(183, 182, 182);
+}
+
+.compilationWebDesigne h2{
+    padding-left: 10px;
 }
 
 .compilatioms ul li {
     display: inline-block;
     width: 190px;
     padding: 10px;  
+    font-size: 0.8em;
 }
 
 .compilatioms img {
