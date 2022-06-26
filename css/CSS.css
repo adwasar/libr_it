@@ -215,6 +215,10 @@ a:hover {
         width: 200px;
         height: 300px;
     }
+    .compilatioms ul li {
+        width: 150px;
+    } 
+    
 }
 
 .active {
