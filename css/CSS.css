@@ -134,6 +134,10 @@ img {
     line-height: 1.4em;
 }
 
+.annotation p {
+    padding: 7px;
+}
+
 h3 {
     margin: 0 0 10px;
 }
