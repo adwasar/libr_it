@@ -115,5 +115,3 @@ burger.addEventListener('click', () => {
     leftMenu.classList.toggle('active');
 });
 
-
-
