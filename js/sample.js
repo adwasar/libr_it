@@ -45,7 +45,8 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
       php = `PHP.html" class="a">PHP</a>`,
       cPlusPlus = `C_C++.html" class="a">C/C++</a>`,
       cSharp = `C(sharp).html" class="a">C#</a>`,
-      webDesigne =`Web-design.html" class="a">Веб-дизайн</a>`;
+      webDesigne =`Web-design.html" class="a">Веб-дизайн</a>`,
+      qA =`QA.html" class="a">QA</a>`;
 
 
     if (leftMenu.classList.contains('leftMenuDeep1')) {
@@ -58,6 +59,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
             <a href="others/${cPlusPlus}
             <a href="others/${cSharp}
             <a href="others/${webDesigne}
+            <a href="others/${qA}
         `;
 
     } else if (leftMenu.classList.contains('leftMenuDeep2')) {
@@ -70,6 +72,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
             <a href="${cPlusPlus}
             <a href="${cSharp}
             <a href="${webDesigne}
+            <a href="${qA}
         `;
         
     } else if (leftMenu.classList.contains('leftMenuDeep3')) {
@@ -82,6 +85,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
             <a href="../../${cPlusPlus}
             <a href="../../${cSharp}
             <a href="../../${webDesigne}
+            <a href="../../${qA}
         `;
     }
 
