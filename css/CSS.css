@@ -1,0 +1,230 @@
+/* 
+1. Header
+2. Sidebar
+3. Main
+4. Helpers 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+/* 1. Header */
+.head {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #24292f;
+    text-align: left;
+    line-height: 70px;
+    font-size: 2.5em;    
+}
+
+button {
+    float: right;
+    overflow: hidden;
+    width: 10%;
+    min-width: 100px;
+    height: 70px;   
+    background: #24292f;
+    border: 0 solid black;
+    font-size: 0.5em;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    color: #808080;
+    cursor: pointer;
+}
+
+.head a {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.head a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.burger {
+    right: 0;
+    top: 0;
+    position: fixed;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    font-size: 1em;
+    text-align: center;
+    display: none;
+}
+
+
+
+/* 2. Sidebar */
+.leftMenu {
+    float: left;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    font-size: 1.8em;
+    text-align: left;   
+    background: rgb(196, 196, 196);
+    border: 1px solid rgb(173, 173, 173);
+    border-bottom: 0 solid black;
+    border-left: 0 solid black;
+    border-top: 0 solid black;
+}
+
+
+/* 3. Main */
+.main {
+    padding-top: 70px;
+}
+   
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+.body {
+    float: left;
+    margin-left: 200px;
+    min-width: 360px;
+}
+
+img {
+    float: left;
+}
+
+.imgTitle {
+    padding-right: 10px;
+    float: left;
+    width: 300px;
+    height: 450px;
+}
+
+.picture {
+    float: left;
+    width: 100%;
+    background: url(../imgs/qwerty.jpg);
+    height: 250px;
+    background-size: cover;
+}
+
+.picture div{
+    padding: 20px;
+    width: 70%;
+    color:#fff;
+    font-size: 2em;
+    text-align: left;
+}
+
+#mainText {
+    float: left;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.annotation {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+.annotation p {
+    padding: 7px;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+table {
+    float: left;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+ul {
+    float: top;
+    padding: 10px;
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+.headerСompilatioms{
+    float: left;
+    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.compilatioms {
+    float: left;
+    width: 100%;
+}
+
+.compilationWebDesigne__list{
+    background-color: rgb(183, 182, 182);
+}
+
+.compilationWebDesigne h2{
+    padding-left: 10px;
+}
+
+.compilatioms ul li {
+    display: inline-block;
+    width: 190px;
+    padding: 10px;  
+    font-size: 0.8em;
+}
+
+.compilatioms img {
+    float: left;
+    width: 80%;
+    height: 200px;
+}
+
+.compilatioms p {
+    float: left;
+}
+
+
+/* 4. Helpers  */
+a {
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+}
+
+.a {
+    padding: 5px; 
+    text-align: left;
+    display: list-item;
+}
+
+a:hover {
+    color: rgb(76, 52, 155);
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .body {margin-left: 0px;}
+    .leftMenu {display: none;}
+    .burger {display: block;}
+    button {display: none;}
+    .imgTitle {
+        width: 200px;
+        height: 300px;
+    }
+    .compilatioms ul li {
+        width: 150px;
+    } 
+    
+}
+
+.active {
+    display: block;
+}
