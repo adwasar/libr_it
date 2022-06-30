@@ -130,4 +130,4 @@ const compilations = document.querySelector('.compilations'),
             item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
         }
     });
-};
+}

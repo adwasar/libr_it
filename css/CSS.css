@@ -75,9 +75,7 @@ button:hover {
     text-align: left;   
     background: rgb(196, 196, 196);
     border: 1px solid rgb(173, 173, 173);
-    border-bottom: 0 solid black;
-    border-left: 0 solid black;
-    border-top: 0 solid black;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
 }
 
 
@@ -108,11 +106,14 @@ img {
 }
 
 .picture {
+    margin-bottom: 20px;
     float: left;
     width: 100%;
     background: url(../imgs/qwerty.jpg);
     height: 250px;
     background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+
 }
 
 .picture div{
@@ -121,12 +122,6 @@ img {
     color:#fff;
     font-size: 2em;
     text-align: left;
-}
-
-#mainText {
-    float: left;
-    font-size: 1.2em;
-    padding: 10px;
 }
 
 .annotation {
@@ -169,11 +164,13 @@ ul {
 
 .compilation__list{
     background-color: rgb(183, 182, 182);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 
 .compilations h2{
     padding-left: 10px;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .compilations ul li {
