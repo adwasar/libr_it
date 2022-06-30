@@ -100,7 +100,7 @@ listItems.forEach((item, i) => {
 const orderList = document.querySelectorAll("li");
 
 const unOrderList = document.querySelector("ul"),
-      compilationWebDesigneList = document.querySelector(".compilationWebDesigne__list");
+      compilationWebDesigneList = document.querySelector(".compilation__list");
 
 function checkUnOrderList () {
     if (unOrderList && !compilationWebDesigneList) {
@@ -108,7 +108,6 @@ function checkUnOrderList () {
         orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
         orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
     }   
-    
 }
 checkUnOrderList ();
 
@@ -119,3 +118,16 @@ burger.addEventListener('click', () => {
     leftMenu.classList.toggle('active');
 });
 
+// Огриничени длинны строки описания елементов подборки 
+
+if (document.querySelector('.compilations')) {
+
+const compilations = document.querySelector('.compilations'),
+      pCompilations = compilations.querySelectorAll('p b');
+
+    pCompilations.forEach (item => {
+        if (item.innerHTML.length > 35) {
+            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+        }
+    });
+};
