@@ -212,7 +212,10 @@ a:hover {
 
 @media (max-width: 500px) {
     .body {margin-left: 0px;}
-    .leftMenu {display: none;}
+    .leftMenu {
+        transform: translateX(-100%);
+        transition: 0.2s;
+    }
     .burger {display: block;}
     button {display: none;}
     .imgTitle {
@@ -226,5 +229,6 @@ a:hover {
 }
 
 .active {
-    display: block;
+    transition: 0.3s;
+    transform: translateX(0);
 }
