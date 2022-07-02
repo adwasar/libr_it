@@ -100,13 +100,14 @@ listItems.forEach((item, i) => {
 const orderList = document.querySelectorAll("li");
 
 const unOrderList = document.querySelector("ul"),
-      compilationWebDesigneList = document.querySelector(".compilation__list");
+      compilationList = document.querySelector(".compilation__list");
 
 function checkUnOrderList () {
-    if (unOrderList && !compilationWebDesigneList) {
+    if (unOrderList && !compilationList) {
         orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
         orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
         orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
+        orderList[3].innerHTML = `${'<b>Размер: </b>'} ${orderList[3].innerHTML} MB`;
     }   
 }
 checkUnOrderList ();
