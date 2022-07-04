@@ -123,12 +123,49 @@ burger.addEventListener('click', () => {
 
 if (document.querySelector('.compilations')) {
 
-const compilations = document.querySelector('.compilations'),
-      pCompilations = compilations.querySelectorAll('p b');
+    const compilations = document.querySelector('.compilations'),
+          pCompilations = compilations.querySelectorAll('p b');
 
-    pCompilations.forEach (item => {
-        if (item.innerHTML.length > 35) {
-            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
-        }
+        pCompilations.forEach (item => {
+            if (item.innerHTML.length > 35) {
+                item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+            }
+    });
+}
+
+// tabs 
+
+if (document.querySelector('.compilations')) {
+
+    const tabs = document.querySelectorAll('.tabBlock'),
+        compilations = document.querySelector('.compilations'),
+        all = document.querySelector('.all');
+
+    function showCompilationsContent() { 
+        compilations.style.display = 'block';
+        all.style.display = 'none';
+    }
+
+    function showAllContent() {
+        compilations.style.display = 'none';
+        all.style.display = 'block';
+    }
+
+    showCompilationsContent();
+
+    tabs.forEach((item, i) => {
+        item.addEventListener ('click', (event) => {
+            if (event.target == item) {
+                if (i == 0) {
+                    showCompilationsContent();
+                    tabs[0].classList.add('tabBlock_active');
+                    tabs[1].classList.remove('tabBlock_active');
+                } else if (i == 1) {
+                    showAllContent();
+                    tabs[0].classList.remove('tabBlock_active');
+                    tabs[1].classList.add('tabBlock_active');
+                }
+            }
+        });
     });
 }
