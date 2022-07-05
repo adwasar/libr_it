@@ -107,6 +107,7 @@ img {
 
 .tabBlock {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding-top: 5px;
     display: block;
     width: 100px;
@@ -187,7 +188,32 @@ ul {
 
 .all {
     display: block;
-    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.all__list{
+    background-color: rgb(183, 182, 182);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+.all ul li {
+    display: inline-block;
+    width: 190px;
+    padding: 10px;  
+    font-size: 0.7em;
+}
+
+.all img {
+    display: block;
+    float: left;
+    width: 80%;
+    height: 200px;
+}
+
+.all p {
+    float: left;
+    display: block;
 }
 
 .compilations {

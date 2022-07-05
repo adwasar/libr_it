@@ -121,16 +121,26 @@ burger.addEventListener('click', () => {
 
 // Огриничени длинны строки описания елементов подборки 
 
-if (document.querySelector('.compilations')) {
+if (document.querySelector('.compilations') || document.querySelector('.all')) {
 
     const compilations = document.querySelector('.compilations'),
-          pCompilations = compilations.querySelectorAll('p b');
+          pCompilations = compilations.querySelectorAll('p b'),
+          allList = document.querySelector('.all'),
+          pAllList = allList.querySelectorAll('p b');
+
 
         pCompilations.forEach (item => {
             if (item.innerHTML.length > 35) {
                 item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
-            }
-    });
+            }   
+        });
+
+        pAllList.forEach (item => {
+            if (item.innerHTML.length > 35) {
+                item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+            }   
+        });
+
 }
 
 // tabs 
