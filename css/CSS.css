@@ -282,8 +282,10 @@ a:hover {
         width: 200px;
         height: 300px;
     }
-    .compilations ul li {width: 150px;}
-    
+    .compilations ul li {width: 140px;}
+    .compilations img {height: 150px;}
+    .all ul li {width: 140px;}
+    .all img {height: 150px;}
 }
 
 .active {
