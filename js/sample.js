@@ -144,38 +144,38 @@ if (document.querySelector('.compilations') || document.querySelector('.all')) {
 }
 
 // tabs 
+const tabs = document.querySelectorAll('.tabBlock'),
+      tabsContent = document.querySelectorAll('[data-tab_content]'),
+      tabsParent = document.querySelector('.wrapperTab');
 
-if (document.querySelector('.compilations')) {
-
-    const tabs = document.querySelectorAll('.tabBlock'),
-        compilations = document.querySelector('.compilations'),
-        all = document.querySelector('.all');
-
-    function showCompilationsContent() { 
-        compilations.style.display = 'block';
-        all.style.display = 'none';
-    }
-
-    function showAllContent() {
-        compilations.style.display = 'none';
-        all.style.display = 'block';
-    }
-
-    showCompilationsContent();
-
-    tabs.forEach((item, i) => {
-        item.addEventListener ('click', (event) => {
-            if (event.target == item) {
-                if (i == 0) {
-                    showCompilationsContent();
-                    tabs[0].classList.add('tabBlock_active');
-                    tabs[1].classList.remove('tabBlock_active');
-                } else if (i == 1) {
-                    showAllContent();
-                    tabs[0].classList.remove('tabBlock_active');
-                    tabs[1].classList.add('tabBlock_active');
-                }
-            }
-        });
+function hideTabsContent () {
+    tabsContent.forEach (item => {
+        item.classList.add('hide');
+        item.classList.remove('tabBlock_active');
+    });
+    tabs.forEach (item => {
+        item.classList.remove('tabBlock_active');
     });
 }
+
+function showTabsContent (i = 0) {
+    tabsContent[i].classList.add('show');
+    tabsContent[i].classList.remove('hide');
+    tabs[i].classList.add('tabBlock_active');
+}
+
+hideTabsContent();
+showTabsContent();
+
+tabsParent.addEventListener('click', (e) => {
+    if (e.target.classList.contains('tabBlock')) {
+        tabs.forEach ((item, i) => {
+            if (e.target == item) {
+                hideTabsContent();
+                showTabsContent(i);
+            }
+        });
+    }
+});
+
+

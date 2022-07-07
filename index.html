@@ -7,13 +7,15 @@
     <meta name="keywords" content="IT, библиотека, library, книги, books">
     <title>Главная страница</title>
     <link rel="stylesheet" href="css/CSS.css">
+    <link rel="stylesheet" href="css/support.css">
     <link rel="icon" href="icons/favicon.ico">
 </head>
     <body>
 
         <button>кнопка</button>
         <!-- Навигация:
-            1. Подборки  -->
+            1. Все
+            2. Подборки  -->
         
         <div class="head headDeep1"><!--JS script--></div>  
         
@@ -27,12 +29,12 @@
               
             <!-- табы -->
             <div class="wrapperTab">
-                <div class="tabBlock tabBlock_active">Подборки</div>
-                <div class="tabBlock">Все</div>
+                <div class="tabBlock tabBlock_active">Все</div>
+                <div class="tabBlock">Подборки</div>
             </div>
 
             <!-- 2. Все -->
-            <div class="all">
+            <div data-tab_content class="all">
                 <div>
                     <ul class="all__list">
                         <li>
@@ -462,10 +464,9 @@
                     </ul>
                 </div>
             </div>
-                                   
 
             <!-- 1. Подборки  -->
-            <div class="compilations">                    
+            <div data-tab_content class="compilations">                    
                 <div class="compilationWebDesigne">
                     <h2>Веб-дизайн:</h2>
                     <ul class="compilation__list">
