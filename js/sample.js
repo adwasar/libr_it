@@ -70,7 +70,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
             <a href="${piton}
             <a href="${php}
             <a href="${cPlusPlus}
-            <a href="${cSharp}Навигация
+            <a href="${cSharp}
             <a href="${webDesigne}
             <a href="${qA}
         `;
