@@ -8,7 +8,7 @@
 4. Helpers 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -187,6 +187,14 @@ img {
 
 .annotation p {
     margin: 10px;
+}
+
+li {
+    font-weight: 300;
+}
+
+li b {
+    font-weight: 500;
 }
 
 .imgTitle {
