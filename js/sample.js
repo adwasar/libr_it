@@ -51,7 +51,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
 
     if (leftMenu.classList.contains('leftMenuDeep1')) {
         leftMenu.innerHTML = `
-        <h3>Специфика</h3>
+        <h3>Навигация</h3>
             <a href="others/${javaScript}
             <a href="others/${java}
             <a href="others/${piton}
@@ -64,20 +64,20 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
 
     } else if (leftMenu.classList.contains('leftMenuDeep2')) {
         leftMenu.innerHTML = `
-        <h3>Специфика</h3>
+        <h3>Навигация</h3>
             <a href="${javaScript}
             <a href="${java}
             <a href="${piton}
             <a href="${php}
             <a href="${cPlusPlus}
-            <a href="${cSharp}
+            <a href="${cSharp}Навигация
             <a href="${webDesigne}
             <a href="${qA}
         `;
         
     } else if (leftMenu.classList.contains('leftMenuDeep3')) {
         leftMenu.innerHTML = `
-        <h3>Специфика</h3>
+        <h3>Навигация</h3>
             <a href="../../${javaScript}
             <a href="../../${java}
             <a href="../../${piton}
