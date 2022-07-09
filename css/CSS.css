@@ -135,11 +135,11 @@ img {
 
 .tabBlock:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 
 .tabBlock_active {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 
 
@@ -155,11 +155,17 @@ img {
     font-size: 0.7em;
 }
 
-.tabs_content img{
+.tabs_content ul li:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+.tabs_content img {
     display: block;
     float: left;
-    width: 80%;
+    width: 85%;
     height: 200px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    margin: 5px;
 }
 
 .tabs_content p {
@@ -272,11 +278,17 @@ a:hover {
         width: 200px;
         height: 300px;
     }
-    .compilations ul li {width: 140px;}
-    .compilations img {height: 150px;}
-    .all ul li {width: 140px;}
-    .all img {height: 150px;}
-    .tabs_content{margin-left: 0px;}
+    .tabs_content{
+        margin-left: 0px;
+    }
+    .tabs_content ul li{
+        width: 150px;
+    }
+    .tabs_content img{
+        height: 180px;
+        width: 100%;
+        margin: 5px;
+    }
 }
 
 .active {
