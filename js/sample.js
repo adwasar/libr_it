@@ -120,7 +120,6 @@ burger.addEventListener('click', () => {
 });
 
 // Огриничени длинны строки описания елементов подборки 
-
 if (document.querySelector('.compilations') || document.querySelector('.all')) {
 
     const compilations = document.querySelector('.compilations'),

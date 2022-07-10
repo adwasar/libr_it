@@ -215,7 +215,6 @@ li b {
     height: 250px;
     background-size: cover;
     box-shadow: 0 0 10px rgb(0, 0, 0, 1);
-
 }
 
 .picture div{
@@ -285,6 +284,13 @@ a:hover {
         height: 190px;
         width: 100%;
         margin: 5px;
+    }
+    .imgTitle {
+        position: block;
+        margin: auto;
+        padding-right: 10px;
+        width: 90%;
+        height: 500px;
     }
 }
 
