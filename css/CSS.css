@@ -150,6 +150,11 @@ img {
     margin-left: 200px;
 }
 
+.tabs_content ul {
+    background-color: rgb(183, 182, 182);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
 .tabs_content ul li {
     display: inline-block;
     width: 190px;
@@ -175,23 +180,13 @@ img {
     display: block;
 }
 
-
-/* 3.3 Other  */
-.all__list{
-    background-color: rgb(183, 182, 182);
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-}
-    
-.compilation__list{
-    background-color: rgb(183, 182, 182);
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-}
-
 .compilations h2{
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-weight: 300;
 }
+/* 3.3 Other  */
 
 .annotation p {
     margin: 10px;
