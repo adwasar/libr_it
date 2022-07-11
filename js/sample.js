@@ -1,4 +1,4 @@
-// head
+// Head
 const head = document.querySelector('.head');
 
 const logo = `index.html'>IT Libr</a>`,
@@ -112,7 +112,7 @@ function checkUnOrderList () {
 }
 checkUnOrderList ();
 
-// бургер 
+// Бургер 
 const burger = document.querySelector('.burger');
 
 burger.addEventListener('click', () => {
@@ -127,22 +127,20 @@ if (document.querySelector('.compilations') || document.querySelector('.all')) {
           allList = document.querySelector('.all'),
           pAllList = allList.querySelectorAll('p b');
 
+    pCompilations.forEach (item => {
+        if (item.innerHTML.length > 35) {
+            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+        }   
+    });
 
-        pCompilations.forEach (item => {
-            if (item.innerHTML.length > 35) {
-                item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
-            }   
-        });
-
-        pAllList.forEach (item => {
-            if (item.innerHTML.length > 35) {
-                item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
-            }   
-        });
-
+    pAllList.forEach (item => {
+        if (item.innerHTML.length > 35) {
+            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+        }   
+    });
 }
 
-// tabs 
+// Tabs 
 const tabs = document.querySelectorAll('.tabBlock'),
 tabsContent = document.querySelectorAll('[data-tab_content]'),
 tabsParent = document.querySelector('.wrapperTab');
