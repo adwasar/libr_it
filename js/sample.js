@@ -39,15 +39,15 @@ const logo = `index.html'>IT Libr</a>`,
 // leftMenuCountent
 const leftMenu = document.querySelector('.leftMenu');
 
-const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
-      java = `Java.html" class="a">Java</a>`,
-      piton = `Piton.html" class="a">Piton</a>`,
-      php = `PHP.html" class="a">PHP</a>`,
-      cPlusPlus = `C_C++.html" class="a">C/C++</a>`,
-      cSharp = `C(sharp).html" class="a">C#</a>`,
-      webDesigne =`Web-design.html" class="a">Веб-дизайн</a>`,
-      qA =`QA.html" class="a">QA</a>`,
-      htmlCss =`HTML_CSS.html" class="a">HTML/CSS</a>`;
+const javaScript = `javascript.html" class="a">JavaScript</a>`,
+      java = `java.html" class="a">Java</a>`,
+      python = `python.html" class="a">Python</a>`,
+      php = `php.html" class="a">PHP</a>`,
+      cPlusPlus = `c_c-plyus.html" class="a">C/C++</a>`,
+      cSharp = `c_sharp.html" class="a">C#</a>`,
+      webDesigne =`web-design.html" class="a">Веб-дизайн</a>`,
+      qA =`qa.html" class="a">QA</a>`,
+      htmlCss =`html_css.html" class="a">HTML/CSS</a>`;
 
 
     if (leftMenu.classList.contains('leftMenuDeep1')) {
@@ -55,7 +55,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
         <h3>Навигация</h3>
             <a href="others/${javaScript}
             <a href="others/${java}
-            <a href="others/${piton}
+            <a href="others/${python}
             <a href="others/${php}
             <a href="others/${cPlusPlus}
             <a href="others/${cSharp}
@@ -69,7 +69,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
         <h3>Навигация</h3>
             <a href="${javaScript}
             <a href="${java}
-            <a href="${piton}
+            <a href="${python}
             <a href="${php}
             <a href="${cPlusPlus}
             <a href="${cSharp}
@@ -83,7 +83,7 @@ const javaScript = `JavaScript.html" class="a">JavaScript</a>`,
         <h3>Навигация</h3>
             <a href="../../${javaScript}
             <a href="../../${java}
-            <a href="../../${piton}
+            <a href="../../${python}
             <a href="../../${php}
             <a href="../../${cPlusPlus}
             <a href="../../${cSharp}
