@@ -89,6 +89,12 @@ button:hover {
 
 .leftMenu a{
     height: 30px;
+    padding-bottom: 10px;
+}
+
+.leftMenu a:hover {
+    color: #24292f;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* 3. Main */
@@ -249,7 +255,6 @@ a {
 
 a:hover {
     color: rgb(76, 52, 155);
-    text-decoration: none;
 }
 
 @media (max-width: 500px) {
