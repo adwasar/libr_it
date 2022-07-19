@@ -3,7 +3,7 @@ const head = document.querySelector('.head');
 
 const logo = `index.html'>IT Libr</a>`,
       btnWriteToUs = `<button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам</button>`,
-      btnOnlineLibr = `libraries.html';">Онлайн библиотеки</button>`,
+      tutorials = `tutorials.html';">Справочники</button>`,
       btnHomePage = `index.html'">Главная</button>`,
       linkBurger = `<span class="burger"><b>☰</b></span>`;
 
@@ -12,7 +12,7 @@ const logo = `index.html'>IT Libr</a>`,
         `
             <a href = '${logo}
             ${btnWriteToUs}
-            <button onclick="window.location.href = 'others/${btnOnlineLibr}
+            <button onclick="window.location.href = 'others/${tutorials}
             <button onclick="window.location.href = '${btnHomePage}
             ${linkBurger}
         `;
@@ -21,7 +21,7 @@ const logo = `index.html'>IT Libr</a>`,
         `
             <a href = '../${logo}
             ${btnWriteToUs}
-            <button onclick="window.location.href = '${btnOnlineLibr}
+            <button onclick="window.location.href = '${tutorials}
             <button onclick="window.location.href = '../${btnHomePage}
             ${linkBurger}
         `;
@@ -30,7 +30,7 @@ const logo = `index.html'>IT Libr</a>`,
         `
             <a href = '../../../${logo}
             ${btnWriteToUs}
-            <button onclick="window.location.href = '../../${btnOnlineLibr}
+            <button onclick="window.location.href = '../../${tutorials}
             <button onclick="window.location.href = '../../../${btnHomePage}
             ${linkBurger}
         `;
