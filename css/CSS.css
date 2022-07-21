@@ -121,7 +121,7 @@ img {
 /* 3.1 Tabs  */
 .wrapperTab {
     width: 30%;
-    margin-left: 70%;
+    margin-left: 63%;
     justify-content: right;
     display: flex;
 }
@@ -155,6 +155,7 @@ img {
 
 /* 3.2 Tabs Content  */
 .tabs_content {
+    width: 80%;
     margin-left: 200px;
 }
 
@@ -165,7 +166,7 @@ img {
 
 .tabs_content ul li {
     display: inline-block;
-    width: 190px;
+    width: 174px;
     padding: 10px;  
     font-size: 0.7em;
 }
@@ -177,8 +178,8 @@ img {
 .tabs_content img {
     display: block;
     float: left;
-    width: 85%;
-    height: 200px;
+    width: 100%;
+    height: 240px;
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     margin: 5px;
 }
