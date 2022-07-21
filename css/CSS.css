@@ -270,13 +270,17 @@ a:hover {
         width: 200px;
         height: 300px;
     }
-    .tabs_content{
+    .wrapperTab {
+        margin-left: 250px;
+    }
+    .tabs_content {
+        width: 100%;
         margin-left: 0px;
     }
-    .tabs_content ul li{
+    .tabs_content ul li {
         width: 150px;
     }
-    .tabs_content img{
+    .tabs_content img {
         height: 190px;
         width: 100%;
         margin: 5px;
