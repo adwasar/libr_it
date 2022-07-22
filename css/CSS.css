@@ -116,7 +116,24 @@ img {
     float: left;
 }
 
+.goUp {
+    right: 5px;
+    bottom: 5px;
+    padding-top: 15px;
+    display: none;
+    border-radius: 50%;
+    height: 75px;
+    width: 86px;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    text-align: center;
+}
 
+.goUp:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
 
 /* 3.1 Tabs  */
 .wrapperTab {
@@ -292,7 +309,12 @@ a:hover {
         width: 90%;
         height: 500px;
     }
-}
+    .goUp {
+        padding-top: 15px;
+        width: 65px;
+        height: 50px;
+        font-size: 30px;
+    }
 
 .active {
     transition: 0.3s;

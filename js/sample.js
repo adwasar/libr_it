@@ -181,5 +181,22 @@ if (document.querySelector('.compilations')) {
     });
 }
 
+// goUp
+const goUp = document.querySelector('.goUp');
+
+goUp.addEventListener('click', () => {
+    window.scrollTo(0, 0);
+});
+
+window.addEventListener('scroll', ()=> {
+    
+    if (document.documentElement.scrollTop <= 300) {
+        goUp.style.display = 'none';
+    } else {
+        goUp.style.display = 'block';
+    }
+});
+
+
 
 
