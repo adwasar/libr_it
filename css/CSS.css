@@ -316,6 +316,8 @@ a:hover {
         font-size: 30px;
     }
 
+}
+
 .active {
     transition: 0.3s;
     transform: translateX(0);
