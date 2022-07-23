@@ -182,20 +182,31 @@ if (document.querySelector('.compilations')) {
 }
 
 // goUp
-const goUp = document.querySelector('.goUp');
+if (document.querySelector('.goUp')) {
 
-goUp.addEventListener('click', () => {
-    window.scrollTo(0, 0);
-});
-
-window.addEventListener('scroll', ()=> {
+    const goUp = document.querySelector('.goUp');
     
-    if (document.documentElement.scrollTop <= 300) {
-        goUp.style.display = 'none';
-    } else {
-        goUp.style.display = 'block';
-    }
-});
+    goUp.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    });
+    
+    window.addEventListener('scroll', ()=> {
+        
+        if (document.documentElement.scrollTop <= 300) {
+            goUp.style.display = 'block';
+            goUp.style.transform = 'translateX(110%)';
+            goUp.style.transition = '0.2s';
+        } else {
+            goUp.style.display = 'block';
+            goUp.style.transform = 'translateX(0px)';
+            goUp.style.transition = '0.2s';
+        }
+    });
+}
+
 
 
 
