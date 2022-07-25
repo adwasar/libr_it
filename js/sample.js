@@ -2,7 +2,6 @@
 const head = document.querySelector('.head');
 
 const logo = `index.html'>IT Libr</a>`,
-      btnWriteToUs = `<button onclick="window.location.href = 'mailto:Adwasarik@gmail.com';">Написать нам</button>`,
       tutorials = `tutorials.html';">Справочники</button>`,
       btnHomePage = `index.html'">Главная</button>`,
       linkBurger = `<span class="burger"><b>☰</b></span>`;
@@ -11,7 +10,6 @@ const logo = `index.html'>IT Libr</a>`,
         head.innerHTML =
         `
             <a href = '${logo}
-            ${btnWriteToUs}
             <button onclick="window.location.href = 'others/${tutorials}
             <button onclick="window.location.href = '${btnHomePage}
             ${linkBurger}
@@ -20,7 +18,6 @@ const logo = `index.html'>IT Libr</a>`,
         head.innerHTML =
         `
             <a href = '../${logo}
-            ${btnWriteToUs}
             <button onclick="window.location.href = '${tutorials}
             <button onclick="window.location.href = '../${btnHomePage}
             ${linkBurger}
@@ -29,7 +26,6 @@ const logo = `index.html'>IT Libr</a>`,
         head.innerHTML =
         `
             <a href = '../../../${logo}
-            ${btnWriteToUs}
             <button onclick="window.location.href = '../../${tutorials}
             <button onclick="window.location.href = '../../../${btnHomePage}
             ${linkBurger}
@@ -193,7 +189,7 @@ if (document.querySelector('.goUp')) {
         });
     });
     
-    window.addEventListener('scroll', ()=> {
+    window.addEventListener('scroll', () => {
         
         if (document.documentElement.scrollTop <= 300) {
             goUp.style.display = 'block';
@@ -206,6 +202,23 @@ if (document.querySelector('.goUp')) {
         }
     });
 }
+
+// futter
+
+const footer = document.querySelector('footer');
+
+footer.innerHTML = 
+    `
+    <div class="footer-section">
+    <a href="mailto:Adwasarik@gmail.com">E-mail автора</a>
+    </div>
+    `;
+    // <a href="#">О проекте</a>
+    
+
+
+
+
 
 
 
