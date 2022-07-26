@@ -130,9 +130,15 @@ img {
     text-align: center;
 }
 
-.goUp span{
-    transform: scale(2, 0.5);
+.top-arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    transform: rotate(45deg);
+    display: inline-flex;
 }
+
 
 .goUp:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -348,6 +354,9 @@ footer {
         width: 65px;
         height: 50px;
         font-size: 30px;
+    }
+    .top-arrow {
+        margin-top: 10px;
     }
     footer {
         height: 60px;
