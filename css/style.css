@@ -116,14 +116,13 @@ img {
     float: left;
 }
 
-.goUp {
-    right: 8px;
-    bottom: 53px;
-    padding-top: 15px;
+.scroll-top {
+    right: 20px;
+    bottom: 65px;
     display: none;
     border-radius: 50%;
-    height: 75px;
-    width: 86px;
+    height: 56px;
+    width: 56px;
     position: fixed;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-size: 50px;
@@ -131,16 +130,17 @@ img {
 }
 
 .top-arrow {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-top: 3px solid gray;
     border-left: 3px solid gray;
     transform: rotate(45deg);
-    display: inline-flex;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
-.goUp:hover {
+.scroll-top:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     cursor: pointer;
 }
@@ -348,11 +348,11 @@ footer {
         width: 90%;
         height: 500px;
     }
-    .goUp {
-        padding-top: 15px;
+    .scroll-top {
+        right: 5px;
         bottom: 65px;
-        width: 65px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         font-size: 30px;
     }
     .top-arrow {

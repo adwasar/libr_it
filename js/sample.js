@@ -177,12 +177,12 @@ if (document.querySelector('.compilations')) {
     });
 }
 
-// goUp
-if (document.querySelector('.goUp')) {
+// scroll-top
+if (document.querySelector('.scroll-top')) {
 
-    const goUp = document.querySelector('.goUp');
+    const scrollTop = document.querySelector('.scroll-top');
     
-    goUp.addEventListener('click', () => {
+    scrollTop.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
@@ -192,13 +192,13 @@ if (document.querySelector('.goUp')) {
     window.addEventListener('scroll', () => {
         
         if (document.documentElement.scrollTop <= 300) {
-            goUp.style.display = 'block';
-            goUp.style.transform = 'translateX(110%)';
-            goUp.style.transition = '0.2s';
+            scrollTop.style.display = 'block';
+            scrollTop.style.transform = 'translateX(150%)';
+            scrollTop.style.transition = '0.2s';
         } else {
-            goUp.style.display = 'block';
-            goUp.style.transform = 'translateX(0px)';
-            goUp.style.transition = '0.2s';
+            scrollTop.style.display = 'block';
+            scrollTop.style.transform = 'translateX(0px)';
+            scrollTop.style.transition = '0.2s';
         }
     });
 }
