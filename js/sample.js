@@ -213,7 +213,7 @@ footer.innerHTML =
     <a href="mailto:Adwasarik@gmail.com">E-mail автора</a>
     </div>
     `;
-    // <a href="#">О проекте</a>
+// <a href="#">О проекте</a>
     
 
 

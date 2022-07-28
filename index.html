@@ -16,34 +16,45 @@
 
     <button>кнопка</button>
     <!-- Навигация:
-            1.Tbas
-            2. Tabs_content
-                2.1. Все
-                2.2. Подборки
+        1. Head
+        2. Main
+            2.1. Left_menu
+            2.2. Scroll_top
+            2.3. Tabs
+            2.4. Tabs_content
+                2.4.1 All
+                2.4.2 Compilations
+        3. Footer
     -->
 
+    <!-- 1. Head -->
     <div class="head headDeep1">
         <!--JS script-->
     </div>
 
+    <!-- 2. Main -->
     <div class="main">
+        <!-- 2.1. Left_menu -->
         <nav class="leftMenu leftMenuDeep1">
             <!--JS script-->
         </nav>
-        <!-- 1.Табы -->
+
+        <!-- 2.2. Scroll_top -->
+        <div class='scroll-top'>
+            <div class="top-arrow"></div>
+            <!--JS script-->
+        </div>
+
+        <!-- 2.3. Tabs -->
         <div class="wrapperTab">
             <div class="tabBlock tabBlock_active">Все</div>
             <div class="tabBlock">Подборки</div>
         </div>
 
-        <div class='scroll-top'>
-            <div class="top-arrow"></div>
-        </div>
-        
-        
-
+        <!-- 2.4. Tabs_content -->
         <div class="tabs_content">
-            <!-- 2.1. Все -->
+
+            <!-- 2.4.1 All -->
             <div data-tab_content class="all">
                 <div>
                     <ul class="all__list">
@@ -606,7 +617,7 @@
                     </ul>
                 </div>
             </div>
-            <!-- 2.2. Подборки  -->
+            <!-- 2.4.2 Compilations  -->
             <div data-tab_content class="compilations">
                 <div class="compilationWebDesigne">
                     <h2>HTML/CSS:</h2>
@@ -811,6 +822,8 @@
             </div>
         </div>
     </div>
+
+    <!-- 3. Footer -->
     <footer>
         <!--JS script-->
     </footer>
