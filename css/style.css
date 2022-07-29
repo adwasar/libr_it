@@ -228,6 +228,10 @@ img {
     margin: 10px;
 }
 
+.annotation h1{
+    padding: 10px;
+}
+
 li {
     font-weight: 300;
 }

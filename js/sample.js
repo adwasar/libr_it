@@ -210,10 +210,10 @@ const footer = document.querySelector('footer');
 footer.innerHTML = 
     `
     <div class="footer-section">
+    <a href="https://adwasar.github.io/libr_it/others/about.html">О проекте</a>
     <a href="mailto:Adwasarik@gmail.com">E-mail автора</a>
     </div>
     `;
-// <a href="#">О проекте</a>
     
 
 
