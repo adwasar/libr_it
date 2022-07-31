@@ -15,7 +15,10 @@
     padding: 0;
     }
  
-body{
+body {
+    min-height: 100vh;
+    display: grid;
+    background-color: rgb(219, 219, 219);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -101,12 +104,6 @@ button:hover {
     padding-top: 70px;
 }
    
-body {
-    background-color: rgb(219, 219, 219);
-    min-height: 100vh;
-    display: grid;
-}
-
 .body {
     float: left;
     margin-left: 200px;
@@ -228,6 +225,11 @@ img {
 .annotation p {
     margin: 10px;
 }
+
+.annotation h1 {
+    margin: 10px;
+}
+
 
 li {
     font-weight: 300;
