@@ -1,37 +1,3 @@
-// Head
-const head = document.querySelector('.head');
-
-const logo = `index.html'>IT Libr</a>`,
-      tutorials = `tutorials.html';">Справочники</button>`,
-      btnHomePage = `index.html'">Главная</button>`,
-      linkBurger = `<span class="burger"><b>☰</b></span>`;
-
-    if (head.classList.contains('headDeep1')) {
-        head.innerHTML =
-        `
-            <a href = '${logo}
-            <button onclick="window.location.href = 'others/${tutorials}
-            <button onclick="window.location.href = '${btnHomePage}
-            ${linkBurger}
-        `;
-    } else if (head.classList.contains('headDeep2')) {
-        head.innerHTML =
-        `
-            <a href = '../${logo}
-            <button onclick="window.location.href = '${tutorials}
-            <button onclick="window.location.href = '../${btnHomePage}
-            ${linkBurger}
-        `;
-    } else if (head.classList.contains('headDeep3')) {
-        head.innerHTML =
-        `
-            <a href = '../../../${logo}
-            <button onclick="window.location.href = '../../${tutorials}
-            <button onclick="window.location.href = '../../../${btnHomePage}
-            ${linkBurger}
-        `;
-    }
-
 // leftMenuCountent
 const leftMenu = document.querySelector('.leftMenu');
 
