@@ -1,3 +1,4 @@
+// leftMenu
 const leftMenu = document.querySelector('.leftMenu');
 
     leftMenu.innerHTML = `
@@ -13,3 +14,9 @@ const leftMenu = document.querySelector('.leftMenu');
         <a href=/libr_it/src/others/html_css.html class="a">HTML/CSS</a>
     `;
     
+// burger 
+const burger = document.querySelector('.burger');
+
+burger.addEventListener('click', () => {
+    leftMenu.classList.toggle('active');
+});

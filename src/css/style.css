@@ -17,6 +17,7 @@
  
 body {
     min-height: 100vh;
+    grid-template-columns: 100%;
     display: grid;
     background-color: rgb(219, 219, 219);
     font-family: 'Roboto', sans-serif;
@@ -312,7 +313,9 @@ footer {
 }
 
 @media (max-width: 500px) {
-    .body {margin-left: 0px;}
+    .body {
+        margin-left: 0px;
+    }
     .leftMenu {
         transform: translateX(-100%);
         transition: 0.2s;

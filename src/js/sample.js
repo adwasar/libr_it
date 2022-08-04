@@ -21,13 +21,6 @@ function checkUnOrderList () {
 }
 checkUnOrderList ();
 
-// Бургер 
-const burger = document.querySelector('.burger');
-
-burger.addEventListener('click', () => {
-    leftMenu.classList.toggle('active');
-});
-
 // Огриничени длинны строки описания елементов подборки 
 if (document.querySelector('.compilations') || document.querySelector('.all')) {
 
