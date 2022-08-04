@@ -1,59 +1,19 @@
 // leftMenuCountent
 const leftMenu = document.querySelector('.leftMenu');
 
-const javaScript = `javascript.html" class="a">JavaScript</a>`,
-      java = `java.html" class="a">Java</a>`,
-      python = `python.html" class="a">Python</a>`,
-      php = `php.html" class="a">PHP</a>`,
-      cPlusPlus = `c_c-plyus.html" class="a">C/C++</a>`,
-      cSharp = `c_sharp.html" class="a">C#</a>`,
-      webDesigne =`web-design.html" class="a">Веб-дизайн</a>`,
-      qA =`qa.html" class="a">QA</a>`,
-      htmlCss =`html_css.html" class="a">HTML/CSS</a>`;
-
-
-    if (leftMenu.classList.contains('leftMenuDeep1')) {
-        leftMenu.innerHTML = `
-        <h3>Навигация</h3>
-            <a href="others/${javaScript}
-            <a href="others/${java}
-            <a href="others/${python}
-            <a href="others/${php}
-            <a href="others/${cPlusPlus}
-            <a href="others/${cSharp}
-            <a href="others/${webDesigne}
-            <a href="others/${qA}
-            <a href="others/${htmlCss}
-        `;
-
-    } else if (leftMenu.classList.contains('leftMenuDeep2')) {
-        leftMenu.innerHTML = `
-        <h3>Навигация</h3>
-            <a href="${javaScript}
-            <a href="${java}
-            <a href="${python}
-            <a href="${php}
-            <a href="${cPlusPlus}
-            <a href="${cSharp}
-            <a href="${webDesigne}
-            <a href="${qA}
-            <a href="${htmlCss}
-        `;
-        
-    } else if (leftMenu.classList.contains('leftMenuDeep3')) {
-        leftMenu.innerHTML = `
-        <h3>Навигация</h3>
-            <a href="../../${javaScript}
-            <a href="../../${java}
-            <a href="../../${python}
-            <a href="../../${php}
-            <a href="../../${cPlusPlus}
-            <a href="../../${cSharp}
-            <a href="../../${webDesigne}
-            <a href="../../${qA}
-            <a href="../../${htmlCss}
-        `;
-    }
+    leftMenu.innerHTML = `
+    <h3>Навигация</h3>
+        <a href=/src/others/javascript.html class="a">JavaScript</a>
+        <a href=/src/others/java.html class="a">Java</a>
+        <a href=/src/others/python.html class="a">Python</a>
+        <a href=/src/others/php.html class="a">PHP</a>
+        <a href=/src/others/c_c-plyus.html class="a">C/C++</a>
+        <a href=/src/others/c_sharp.html class="a">C#</a>
+        <a href=/src/others/web-design.html class="a">Веб-дизайн</a>
+        <a href=/src/others/qa.html class="a">QA</a>
+        <a href=/src/others/html_css.html class="a">HTML/CSS</a>
+    `;
+    
 
 // Присвоение ноера, для каждого елемента таблицы
 const listItems = document.querySelectorAll("td a");
