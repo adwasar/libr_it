@@ -8,11 +8,10 @@ listItems.forEach((item, i) => {
 // Шаблоны для списков
 const orderList = document.querySelectorAll("li");
 
-const unOrderList = document.querySelector("ul"),
-      compilationList = document.querySelector(".compilation__list");
+const bookInfo = document.querySelector(".book-info__list");
 
-function checkUnOrderList () {
-    if (unOrderList && !compilationList) {
+function checkUnOrderList() {
+    if (bookInfo) {
         orderList[0].innerHTML = `${'<b>Название книги: </b>'} ${orderList[0].innerHTML}`;
         orderList[1].innerHTML = `${'<b>Автор: </b>'} ${orderList[1].innerHTML}`;
         orderList[2].innerHTML = `${'<b>Издание: </b>'} ${orderList[2].innerHTML} г.`;
