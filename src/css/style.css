@@ -55,7 +55,7 @@ button:hover {
 header a {
     padding: 10px;
     color: rgb(255, 255, 255);
-}
+ }
 
 header a:hover {
     color: rgb(255, 255, 255);
@@ -75,7 +75,7 @@ header a:hover {
 }
 
 /* 2. Sidebar */
-.leftMenu {
+.sidebar {
     margin-top: 70px;
     left: 0;
     width: 200px;
@@ -89,12 +89,12 @@ header a:hover {
     font-weight: 300;
 }
 
-.leftMenu a{
+.sidebar a{
     height: 30px;
     padding-bottom: 10px;
 }
 
-.leftMenu a:hover {
+.sidebar a:hover {
     color: #24292f;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -317,7 +317,7 @@ footer {
     .body {
         margin-left: 0px;
     }
-    .leftMenu {
+    .sidebar {
         transform: translateX(-100%);
         transition: 0.2s;
     }

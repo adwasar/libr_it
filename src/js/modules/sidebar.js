@@ -1,7 +1,7 @@
-// leftMenu
-const leftMenu = document.querySelector('.leftMenu');
+// sidebar
+const sidebar = document.querySelector('.sidebar');
 
-    leftMenu.innerHTML = `
+    sidebar.innerHTML = `
     <h3>Навигация</h3>
         <a href=/libr_it/src/others/javascript.html class="a">JavaScript</a>
         <a href=/libr_it/src/others/java.html class="a">Java</a>
@@ -18,5 +18,5 @@ const leftMenu = document.querySelector('.leftMenu');
 const burger = document.querySelector('.burger');
 
 burger.addEventListener('click', () => {
-    leftMenu.classList.toggle('active');
+    sidebar.classList.toggle('active');
 });
