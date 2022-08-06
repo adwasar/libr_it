@@ -24,7 +24,7 @@ body {
 }
 
 /* 1. Header */
-.head {
+header {
     position: fixed;
     width: 100%;
     height: 70px;
@@ -52,12 +52,12 @@ button:hover {
     cursor: pointer;
 }
 
-.head a {
+header a {
     padding: 10px;
     color: rgb(255, 255, 255);
 }
 
-.head a:hover {
+header a:hover {
     color: rgb(255, 255, 255);
 }
 

@@ -1,5 +1,5 @@
 // head
-const head = document.querySelector('.head');
+const head = document.querySelector('header');
 
     head.innerHTML =
     `
