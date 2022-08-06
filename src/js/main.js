@@ -42,24 +42,24 @@ if (document.querySelector('.compilations') || document.querySelector('.all')) {
 }
 
 // Tabs 
-const tabs = document.querySelectorAll('.tabBlock'),
+const tabs = document.querySelectorAll('.tab-block'),
 tabsContent = document.querySelectorAll('[data-tab_content]'),
-tabsParent = document.querySelector('.wrapperTab');
+tabsParent = document.querySelector('.tabs');
 
 function hideTabsContent () {
     tabsContent.forEach (item => {
         item.classList.add('hide');
-        item.classList.remove('tabBlock_active');
+        item.classList.remove('tabs_tab-block_active');
     });
     tabs.forEach (item => {
-        item.classList.remove('tabBlock_active');
+        item.classList.remove('tabs_tab-block_active');
     });
 }
 
 function showTabsContent (i = 0) {
     tabsContent[i].classList.add('show');
     tabsContent[i].classList.remove('hide');
-    tabs[i].classList.add('tabBlock_active');
+    tabs[i].classList.add('tabs_tab-block_active');
 }
 
 if (document.querySelector('.compilations')) {
@@ -67,7 +67,7 @@ if (document.querySelector('.compilations')) {
     showTabsContent();
     
     tabsParent.addEventListener('click', (e) => {
-        if (e.target.classList.contains('tabBlock')) {
+        if (e.target.classList.contains('tab-block')) {
             tabs.forEach ((item, i) => {
                 if (e.target == item) {
                     hideTabsContent();

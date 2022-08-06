@@ -144,20 +144,21 @@ img {
 }
 
 /* 3.1 Tabs  */
-.wrapperTab {
+.tabs {
     width: 30%;
     margin-left: 63%;
     justify-content: right;
     display: flex;
 }
 
-.tabBlock {
+.tab-block {
     margin-right: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 3px;
     display: block;
     width: 100px;
     height: 30px;
@@ -168,38 +169,38 @@ img {
     font-weight: 400;
 }
 
-.tabBlock:hover {
+.tab-block:hover {
     cursor: pointer;
     box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 
-.tabBlock_active {
+.tabs_tab-block_active {
     box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 
 /* 3.2 Tabs Content  */
-.tabs_content {
+.tabs-content {
     width: 80%;
     margin-left: 200px;
 }
 
-.tabs_content ul {
+.tabs-content ul {
     background-color: rgb(183, 182, 182);
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 
-.tabs_content ul li {
+.tabs-content ul li {
     display: inline-block;
     width: 174px;
     padding: 10px;  
     font-size: 0.7em;
 }
 
-.tabs_content ul li:hover {
+.tabs-content ul li:hover {
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 
-.tabs_content img {
+.tabs-content img {
     display: block;
     float: left;
     width: 100%;
@@ -208,7 +209,7 @@ img {
     margin: 5px;
 }
 
-.tabs_content p {
+.tabs-content p {
     float: left;
     display: block;
 }
@@ -327,17 +328,17 @@ footer {
         width: 200px;
         height: 300px;
     }
-    .wrapperTab {
+    .tabs {
         margin-left: 250px;
     }
-    .tabs_content {
+    .tabs-content {
         width: 100%;
         margin-left: 0px;
     }
-    .tabs_content ul li {
+    .tabs-content ul li {
         width: 150px;
     }
-    .tabs_content img {
+    .tabs-content img {
         height: 190px;
         width: 100%;
         margin: 5px;
