@@ -76,6 +76,7 @@ header a:hover {
 
 /* 2. Sidebar */
 .leftMenu {
+    margin-top: 70px;
     left: 0;
     width: 200px;
     height: 100vh;
