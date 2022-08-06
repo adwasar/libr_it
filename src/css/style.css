@@ -239,7 +239,7 @@ li b {
     font-weight: 500;
 }
 
-.imgTitle {
+.img-title {
     padding-right: 10px;
     float: left;
     width: 300px;
@@ -324,7 +324,7 @@ footer {
     }
     .burger {display: block;}
     button {display: none;}
-    .imgTitle {
+    .img-title {
         width: 200px;
         height: 300px;
     }
@@ -343,7 +343,7 @@ footer {
         width: 100%;
         margin: 5px;
     }
-    .imgTitle {
+    .img-title {
         position: block;
         margin: auto;
         padding-right: 10px;
