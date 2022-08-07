@@ -6,7 +6,7 @@ listItems.forEach((item, i) => {
 });
 
 // Шаблоны для списков
-const orderList = document.querySelectorAll("li");
+const orderList = document.querySelectorAll(".book-info__list li");
 
 const bookInfo = document.querySelector(".book-info__list");
 
