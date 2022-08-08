@@ -16,11 +16,14 @@
     }
  
 body {
-    min-height: 100vh;
-    grid-template-columns: 100%;
     display: grid;
     background-color: rgb(219, 219, 219);
     font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    min-height: 100vh;
 }
 
 /* 1. Header */
