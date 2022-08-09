@@ -332,7 +332,7 @@ footer {
         transition: 0.2s;
     }
     .burger {display: block;}
-    button {display: none;}
+    header ul li {display: none;}
     .img-title {
         width: 200px;
         height: 300px;
