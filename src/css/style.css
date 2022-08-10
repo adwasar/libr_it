@@ -24,6 +24,7 @@ body {
 .wrapper {
     display: grid;
     min-height: 100vh;
+    
 }
 
 /* 1. Header */
@@ -37,9 +38,12 @@ header {
     font-size: 40px;    
     font-weight: 300;
     align-items: center;
+    
 }
 
 .head-wrapper {
+    padding-left: 220px;
+    padding-right: 220px;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -111,6 +115,7 @@ header a:hover {
 /* 3. Main */
 main {
     padding-top: 70px;
+    max-width: 1320px;
 }
    
 .body {
@@ -155,7 +160,7 @@ img {
 /* 3.1 Tabs  */
 .tabs {
     width: 30%;
-    margin-left: 63%;
+    margin-left: 71%;
     justify-content: right;
     display: flex;
 }
@@ -189,7 +194,7 @@ img {
 
 /* 3.2 Tabs Content  */
 .tabs-content {
-    width: 80%;
+    width: auto;
     margin-left: 200px;
 }
 
@@ -200,7 +205,7 @@ img {
 
 .tabs-content ul li {
     display: inline-block;
-    width: 174px;
+    width: 193px;
     padding: 10px;  
     font-size: 0.7em;
 }
@@ -213,7 +218,7 @@ img {
     display: block;
     float: left;
     width: 100%;
-    height: 240px;
+    height: 250px;
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     margin: 5px;
 }
@@ -321,6 +326,12 @@ footer {
 
 .footer-section a:hover {
     cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .head-wrapper {
+        padding: 0;
+    }
 }
 
 @media (max-width: 500px) {
