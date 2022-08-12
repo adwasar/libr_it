@@ -13,7 +13,7 @@
 * {
     margin: 0;
     padding: 0;
-    }
+}
  
 body {
     display: grid;
@@ -114,12 +114,12 @@ header a:hover {
 /* 3. Main */
 main {
     padding-top: 70px;
-    max-width: 86%;
+    max-width: 73%;
+    margin-left: 200px;
 }
    
-.body {
+.main__content {
     float: left;
-    margin-left: 200px;
     min-width: 360px;
 }
 
@@ -149,7 +149,6 @@ img {
     display: inline-block;
     vertical-align: middle;
 }
-
 
 .scroll-top:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -194,7 +193,6 @@ img {
 /* 3.2 Tabs Content  */
 .tabs-content {
     width: auto;
-    margin-left: 200px;
 }
 
 .tabs-content ul {
@@ -334,8 +332,12 @@ footer {
 }
 
 @media (max-width: 500px) {
-    .body {
-        margin-left: 0px;
+    footer {
+        height: 60px;
+    }
+    main {
+        margin-left: 0;
+        max-width: 100%;
     }
     .sidebar {
         transform: translateX(-100%);
@@ -376,10 +378,6 @@ footer {
     .top-arrow {
         margin-top: 10px;
     }
-    footer {
-        height: 60px;
-    }
-
 }
 
 .active {
