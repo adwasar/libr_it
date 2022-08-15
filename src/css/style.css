@@ -119,7 +119,6 @@ main {
 }
    
 .main__content {
-    float: left;
     min-width: 360px;
 }
 
@@ -277,7 +276,6 @@ table thead th {
 }
 
 ul {
-    float: top;
     padding: 10px;
     font-size: 1.3em;
     list-style-type: none;
