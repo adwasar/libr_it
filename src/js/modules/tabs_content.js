@@ -23,6 +23,7 @@ class AllListItem {
     }
 }
 
+
 new AllListItem(
     'others/javascript/javascript-silnye-storony/page.html',
     'src="others/javascript/javascript-silnye-storony/javascript-silnye-storony.jpg"',
@@ -62,8 +63,6 @@ new AllListItem(
     'Майк МакГрат',
     '.all__list'
 ).render();
-
-//
 
 new AllListItem(
     'others/c_c-plyus/samouchitel-cc-i-c-builder-2007/page.html',
@@ -457,3 +456,176 @@ new AllListItem(
     '.all__list'
 ).render();
 
+//
+
+new AllListItem(
+    'others/html_css/novaya-bolshaya-kniga-css/page.html',
+    'src="others/html_css/novaya-bolshaya-kniga-css/novaya-bolshaya-kniga-css.jpeg"',
+    `Новая большая книга CSS`,
+    'Макфарланд Дэвид',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/html_css/css-polnyj-spravochnik/page.html',
+    'src="others/html_css/css-polnyj-spravochnik/css-polnyj-spravochnik.jpg"',
+    `CSS: полный справочник`,
+    'Эрик А. Мейер, Эстелл Уэйл',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/html_css/css-dlya-profi/page.html',
+    'src="others/html_css/css-dlya-profi/css-dlya-profi.jpeg"',
+    `CSS для профи`,
+    'Кит Грант',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/html_css/html5-karmannyj-spravochnik/page.html',
+    'src="others/html_css/html5-karmannyj-spravochnik/html5-karmannyj-spravochnik.jpg"',
+    `HTML5: карманный справочник`,
+    'Роббинс Дженнифер Нидерст',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/html_css/izuchaem-html-xhtml-i-css/page.html',
+    'src="others/html_css/izuchaem-html-xhtml-i-css/izuchaem-html-xhtml-i-css.jpeg"',
+    `Изучаем HTML, XHTML и CSS`,
+    'Робсон Элизабет, Фримен Эрик',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/php/sozdaem-dinamicheskie-veb-sajty-s-pomoshyu-php-mysql-javascript-css-i-html5/page.html',
+    'src="others/php/sozdaem-dinamicheskie-veb-sajty-s-pomoshyu-php-mysql-javascript-css-i-html5/sozdaem-dinamicheskie-veb-sajty-s-pomoshyu-php-mysql-javascript-css-i-html5.png"',
+    `Создаем динамические веб-сайты с помощью PHP, MySQL, javascript, CSS и
+    HTML5`,
+    'Робин Никсон',
+    '.compilationLayout .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/emocionalnyj-vebdizajn/page.html',
+    'src="others/web-design/emocionalnyj-vebdizajn/emocionalnyj-vebdizajn.jpg"',
+    `Эмоциональный веб-дизайн`,
+    'Аарон Уолтер',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/dizajn-dlya-realnogo-mira/page.html',
+    'src="others/web-design/dizajn-dlya-realnogo-mira/dizajn-dlya-realnogo-mira.jpg"',
+    `Дизайн для реального мира`,
+    'Виктор Папанек',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/osnovy-kontentnoj-strategii/page.html',
+    'src="others/web-design/osnovy-kontentnoj-strategii/osnovy-kontentnoj-strategii.jpg"',
+    `Основы контентной стратегии`,
+    'Эрин Киссейн',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/otzyvchivyj-vebdizajn/page.html',
+    'src="others/web-design/otzyvchivyj-vebdizajn/otzyvchivyj-vebdizajn.png"',
+    `Отзывчивый веб-дизайн`,
+    'Итан Маркотт',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/dizajn/page.html',
+    'src="others/web-design/dizajn/dizajn.jpg"',
+    `Дизайнь. Современный креатифф`,
+    'Хизер Бредли',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+new AllListItem(
+    'others/web-design/snachala-mobilnye/page.html',
+    'src="others/web-design/snachala-mobilnye/snachala-mobilnye.png"',
+    `Сначала мобильные`,
+    'Люк Вроблевски',
+    '.compilationWebDesigne .compilation__list'
+).render();
+
+//
+
+new AllListItem(
+    'others/qa/gibkoe-testirovanie/page.html',
+    'src="others/qa/gibkoe-testirovanie/gibkoe-testirovanie.png"',
+    `Гибкое тестирование. Практическое руководство для тестировщиков ПО и гибких
+    команд`,
+    'Лайза Криспин, Джанет Грегори',
+    '.compilationqa .compilation__list'
+).render();
+
+new AllListItem(
+    'others/qa/klyuchevye-processy-testirovaniya/page.html',
+    'src="others/qa/klyuchevye-processy-testirovaniya/klyuchevye-processy-testirovaniya.png"',
+    `Ключевые процессы тестирования`,
+    'Рекс Блэк',
+    '.compilationqa .compilation__list'
+).render();
+
+new AllListItem(
+    'others/qa/testirovanie-dot-com/page.html',
+    'src="others/qa/testirovanie-dot-com/testirovanie-dot-com.jpg"',
+    `Тестирование DOT COM или Пособие по жестокому обращению с багами в интернет-
+    стартапах`,
+    'Савин Роман',
+    '.compilationqa .compilation__list'
+).render();
+
+new AllListItem(
+    'others/qa/testirovanie-chernogo-yashhika/page.html',
+    'src="others/qa/testirovanie-chernogo-yashhika/testirovanie-chernogo-yashhika.png"',
+    `Тестирование черного ящика. Технологии функционального тестирования программного
+    обеспечения и систем`,
+    'Борис Бейзер',
+    '.compilationqa .compilation__list'
+).render();
+
+new AllListItem(
+    'others/qa/testirovanie-programmnogo-obespecheniya.-bazovyj-kurs/page.html',
+    'src="others/qa/testirovanie-programmnogo-obespecheniya.-bazovyj-kurs/testirovanie-programmnogo-obespecheniya.-bazovyj-kurs.png"',
+    `Тестирование программного обеспечения. Базовый курс`,
+    'Святослав Куликов',
+    '.compilationqa .compilation__list'
+).render();
+
+new AllListItem(
+    'others/qa/testirovanie-programmnogo-obespecheniya.-sem-kanerdzhek-folk-eng-kek-nguen/page.html',
+    'src="others/qa/testirovanie-programmnogo-obespecheniya.-sem-kanerdzhek-folk-eng-kek-nguen/testirovanie-programmnogo-obespecheniya.-sem-kanerdzhek-folk-eng-kek-nguen.jpg"',
+    `Тестирование программного обеспечения. Фундаментальные концепции менеджмента
+    бизнес-приложений`,
+    'Сэм Канер, Джек Фолк, Енг Кек Нгуен',
+    '.compilationqa .compilation__list'
+).render();
+
+// Огриничени длинны строки описания елементов подборки 
+if (document.querySelector('.compilations') || document.querySelector('.all')) {
+
+    const compilations = document.querySelector('.compilations'),
+          pCompilations = compilations.querySelectorAll('p b'),
+          allList = document.querySelector('.all'),
+          pAllList = allList.querySelectorAll('p b');
+
+    pCompilations.forEach (item => {
+        if (item.innerHTML.length > 40) {
+            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+        }   
+    });
+
+    pAllList.forEach (item => {
+        if (item.innerHTML.length > 40) {
+            item.innerHTML = `${item.innerHTML.substring(0, 35)}...`;
+        }   
+    });
+}
