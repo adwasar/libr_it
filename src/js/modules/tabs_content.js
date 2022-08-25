@@ -23,7 +23,6 @@ class AllListItem {
     }
 }
 
-
 new AllListItem(
     'others/javascript/javascript-silnye-storony/page.html',
     'src="others/javascript/javascript-silnye-storony/javascript-silnye-storony.jpg"',
