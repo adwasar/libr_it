@@ -119,7 +119,10 @@ main {
 }
    
 .main__content {
-    min-width: 360px;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 360px;
 }
 
 img {
@@ -191,7 +194,9 @@ img {
 
 /* 3.2 Tabs Content  */
 .tabs-content {
-    width: auto;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tabs-content ul {
